@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayScribe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lemonada:wght@300&family=Roboto+Slab:wght@200;300;500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/30dfa1e004.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body>
+    
+    <nav class="navbar">
+        <img src="img/logo.png" class="logo" alt="" style="height: 100px; width: 300p;" />
+        <div class="menu">
+        <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Popular Locations</a></li>
+            <li><a href="#">Best offer's</a></li>
+            <li><a href="#">Contact us</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </div>
+        <div>
+            <button class="custom-button">Register</button>
+        </div>
+
+    </nav>
+
+
+     <header class="header">
+        <section class="htext">
+            <span>Hello</span>
+            <h1>Welcome to Hotel booking Agency</h1>
+            <br> 
+            <button class="custom-button">Book now</button>
+    
+        </section>
+        
+    </header> 
+
+    <section class="about-section">
+        <div class="ab-section-img">
+            <img src="img/landing.jpeg" alt="about us" class="landing-img">
+        </div>
+        <div class="ab-section-text">
+            <h2>About Us</h2>
+            <p>Welcome to StayScribe, your premier destination for seamless and unforgettable travel experiences. As a dedicated hotel booking agency, we are passionate about crafting the perfect getaways for travelers seeking comfort, luxury, and adventure. With an unwavering commitment to excellence, StayScribe strives to redefine the way you discover and book accommodations worldwide.</p>
+        </div>
+    </section>
+    <div id="rooms">
+        <div class="container">
+            <h1 class="sub-title">Popular Hotels</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/room1.jpg">
+                    <div class="layer">
+                        <h3>Beachfront Vista Retreat</h3>
+                        <p>Experience the ultimate seaside escape in our Beachfront Vista Retreat, featuring spacious accommodations with panoramic glass windows, offering breathtaking views of the serene beach just steps away.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/room2.jpg">
+                    <div class="layer">
+                        <h3>Tranquil Spa Oasis</h3>
+                        <p>Indulge in relaxation and rejuvenation at our Tranquil Spa Oasis, where our expert therapists provide luxurious massages and facials, offering a sanctuary for your skin's ultimate care and well-being.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/room3.jpg">
+                    <div class="layer">
+                        <h3>Luminous Celebration Haven</h3>
+                        <p>Elevate your gatherings and parties in our Luminous Celebration Haven, adorned with authentic, spacious lighting fixtures that create an enchanting atmosphere for unforgettable moments with friends and family.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+<script>
+
+
+
+
+
+    var side = document.getElementById("sidemenu");
+
+    function openmenu(){
+        side.style.right ="0";
+    }
+    function closemenu(){
+        side.style.right="-200px";
+    }
+
+</script>
+
+
+
+    <div class="copyright">
+        <p>© Priyashi Roy 2023. All Right Reserved.</p>
+    </div>
+
+
+    
+    
+
+</body>
+</html>
